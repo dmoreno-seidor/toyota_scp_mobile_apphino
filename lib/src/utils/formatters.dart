@@ -121,42 +121,28 @@ return 'No existe vigencia';
   }
 }
 
-String formatObtenerNombreDia(String date){
-  
-  if(date == null){
-return '';
+String formatObtenerNombreDia(String? date) {
+  if (date == null || date.isEmpty) {
+    return '';
   }
-  else{
-     
-  switch (date){
-    case'MONDAY':
-      return date = 'LUNES';
-      break;
 
-    case'TUESDAY':
-      return date = 'MARTES';
-      break;
-    
-    case'WEDNESDAY':
-      return date = 'MIERCOLES';
-      break;
-    
-    case'THURSDAY':
-      return date = 'JUEVES';
-      break;
-    
-    case'FRIDAY':
-      return date = 'VIERNES';
-      break;
-    
-    case'SATURDAY':
-      return date = 'SABADO';
-      break;
-
-    case'SUNDAY':
-      return date = 'DOMINGO';
-      break;
-  }
+  switch (date.toUpperCase()) {
+    case 'MONDAY':
+      return 'LUNES';
+    case 'TUESDAY':
+      return 'MARTES';
+    case 'WEDNESDAY':
+      return 'MIERCOLES';
+    case 'THURSDAY':
+      return 'JUEVES';
+    case 'FRIDAY':
+      return 'VIERNES';
+    case 'SATURDAY':
+      return 'SABADO';
+    case 'SUNDAY':
+      return 'DOMINGO';
+    default:
+      return '';
   }
 }
 
