@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "123813831789",
+    "firebase_url": "https://hino-app-1bc69.firebaseio.com",
+    "project_id": "hino-app-1bc69",
+    "storage_bucket": "hino-app-1bc69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123813831789:android:86788458df61462dd14b64",
+        "android_client_info": {
+          "package_name": "com.pe.hinoperu.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123813831789-j46n6dpinvevbvperj3r0c4acpst8num.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pe.hinoperu.app",
+            "certificate_hash": "d9fb916eeec2564b5f4b2b82474244370ac566d6"
+          }
+        },
+        {
+          "client_id": "123813831789-ojs3qrglmimkpf4brs5p34ks1vfdvacl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNr-ye4-LBTGAaVFtrfaRjtIS124XDWzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123813831789-ojs3qrglmimkpf4brs5p34ks1vfdvacl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "123813831789-sokcqti7k4j1e58t6qmbh0ef4dhb7iuk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pe.hinoperu.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
