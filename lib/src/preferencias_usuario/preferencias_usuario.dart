@@ -49,9 +49,9 @@ class PreferenciasUsuario {
 
   get ocultarOnBoardingScreen{
     return _prefs.getString('ocultarOnBoardingScreen') ?? '0';
-  } 
+  }
   set ocultarOnBoardingScreen(String value){
-    _prefs.setString('ocultarOnBoardingScreen', '1');
+    _prefs.setString('ocultarOnBoardingScreen', value);
   }
 
   clear() async{
@@ -64,8 +64,8 @@ class PreferenciasUsuario {
     _prefs.setInt('iId', value);
   }
 
-  get iId {
-    return _prefs.getInt('iId') ?? '';
+  int get iId {
+    return _prefs.getInt('iId') ?? 0;
   }
 
   set sNombresUsuario (String value){
